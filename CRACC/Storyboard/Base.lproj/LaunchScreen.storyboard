@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleAspectFill" translatesAutoresizingMaskIntoConstraints="NO" id="Mse-jg-WzR">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" alpha="0.89999997615814209" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="demo" translatesAutoresizingMaskIntoConstraints="NO" id="JcA-V9-CkK">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="711"/>
+                                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="CRACC2" translatesAutoresizingMaskIntoConstraints="NO" id="SM7-bC-X7y">
+                                        <rect key="frame" x="137.5" y="60" width="100" height="120"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="100" id="L6b-sV-PxE"/>
+                                            <constraint firstAttribute="height" constant="120" id="WCZ-0R-C9j"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="SM7-bC-X7y" firstAttribute="top" secondItem="6yq-u9-ebZ" secondAttribute="top" constant="40" id="6df-88-Dtu"/>
+                                    <constraint firstItem="JcA-V9-CkK" firstAttribute="leading" secondItem="6yq-u9-ebZ" secondAttribute="leading" id="Hrs-BK-d8z"/>
+                                    <constraint firstItem="JcA-V9-CkK" firstAttribute="bottom" secondItem="6yq-u9-ebZ" secondAttribute="bottom" constant="44" id="jOC-aa-i93"/>
+                                    <constraint firstItem="JcA-V9-CkK" firstAttribute="trailing" secondItem="6yq-u9-ebZ" secondAttribute="trailing" id="m6E-Eb-b67"/>
+                                    <constraint firstItem="JcA-V9-CkK" firstAttribute="top" secondItem="Mse-jg-WzR" secondAttribute="top" id="qJ6-bq-YGW"/>
+                                    <constraint firstItem="SM7-bC-X7y" firstAttribute="centerX" secondItem="Mse-jg-WzR" secondAttribute="centerX" id="xkX-Kp-egI"/>
+                                </constraints>
+                                <viewLayoutGuide key="safeArea" id="6yq-u9-ebZ"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Mse-jg-WzR" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="FUe-mz-VqD"/>
+                            <constraint firstAttribute="trailing" secondItem="Mse-jg-WzR" secondAttribute="trailing" id="P5Y-ZT-aZD"/>
+                            <constraint firstAttribute="bottom" secondItem="Mse-jg-WzR" secondAttribute="bottom" id="hD2-N6-CI7"/>
+                            <constraint firstItem="Mse-jg-WzR" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="kaw-rm-RB9"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="CRACC2" width="40" height="40"/>
+        <image name="demo" width="577" height="821"/>
+    </resources>
+</document>

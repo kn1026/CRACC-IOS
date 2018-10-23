@@ -1,0 +1,39 @@
+//
+//  ModifiedOwnerGameControl.swift
+//  CRACC
+//
+//  Created by Khoi Nguyen on 11/12/17.
+//  Copyright © 2017 Cracc LLC. All rights reserved.
+//
+
+import UIKit
+
+class ModifiedOwnerGameControl: UIView {
+
+    override func awakeFromNib() {
+        
+        super.awakeFromNib()
+        
+        //  let rectShape = CAShapeLayer()
+        //rectShape.bounds = frame
+        // rectShape.position = center
+        // rectShape.path = UIBezierPath(roundedRect: bounds, byRoundingCorners: [.topLeft, .topRight], cornerRadii: CGSize(width: self.frame.height / 14, height: self.frame.height / 14)).cgPath
+        
+        //Here I'm masking the textView's layer with rectShape layer
+        // layer.mask = rectShape
+    }
+    
+    override func layoutSubviews() {
+        super.layoutSubviews()
+        
+        let rectShape = CAShapeLayer()
+        rectShape.bounds = frame
+        rectShape.position = center
+        rectShape.path = UIBezierPath(roundedRect: bounds, byRoundingCorners: [.topLeft, .topRight, .bottomLeft, .bottomRight], cornerRadii: CGSize(width: self.frame.height / 14, height: self.frame.height / 14)).cgPath
+        
+        
+        //Here I'm masking the textView's layer with rectShape layer
+        layer.mask = rectShape
+        
+    }
+}

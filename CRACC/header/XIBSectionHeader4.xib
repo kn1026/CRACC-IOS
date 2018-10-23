@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13770" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13770"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Myriad-Pro_31655.ttf">
+            <string>MyriadPro-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="XIBSectionHeader4" customModule="CRACC" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VWJ-DF-eCN">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Friend request" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="htO-Uz-5wD">
+                                <rect key="frame" x="115.5" y="12" width="90" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="QTp-WK-80m"/>
+                                    <constraint firstAttribute="width" constant="90" id="rM6-vp-edp"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="MyriadPro-Regular" family="Myriad Pro" pointSize="17"/>
+                                <color key="textColor" red="0.41307169199999999" green="0.41715288160000003" blue="0.67453962560000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iq8-9j-jsZ">
+                                <rect key="frame" x="96.5" y="15" width="15" height="15"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="15" id="Q1R-th-Agz"/>
+                                    <constraint firstAttribute="width" constant="15" id="dOU-GP-JYe"/>
+                                </constraints>
+                                <state key="normal" image="friend mode"/>
+                                <connections>
+                                    <action selector="requestFriendModeBtnPressed:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="lMQ-87-bXS"/>
+                                </connections>
+                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="osL-iu-TiJ">
+                                <rect key="frame" x="214" y="22" width="98" height="1"/>
+                                <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="1" id="wcG-SD-ucn"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Unq-jy-1NK">
+                                <rect key="frame" x="8" y="22" width="80.5" height="1"/>
+                                <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="1" id="p0d-Zc-18D"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="htO-Uz-5wD" firstAttribute="centerY" secondItem="iq8-9j-jsZ" secondAttribute="centerY" id="0EF-CB-OIz"/>
+                            <constraint firstItem="osL-iu-TiJ" firstAttribute="leading" secondItem="htO-Uz-5wD" secondAttribute="trailing" constant="8" id="O43-Jv-VYB"/>
+                            <constraint firstAttribute="trailing" secondItem="osL-iu-TiJ" secondAttribute="trailing" constant="8" id="OdV-Qg-rrR"/>
+                            <constraint firstItem="iq8-9j-jsZ" firstAttribute="leading" secondItem="Unq-jy-1NK" secondAttribute="trailing" constant="8" id="Wej-Di-oO8"/>
+                            <constraint firstItem="htO-Uz-5wD" firstAttribute="centerY" secondItem="VWJ-DF-eCN" secondAttribute="centerY" id="ZLH-Jd-NXt"/>
+                            <constraint firstItem="iq8-9j-jsZ" firstAttribute="centerY" secondItem="Unq-jy-1NK" secondAttribute="centerY" id="ehh-V3-KaU"/>
+                            <constraint firstItem="osL-iu-TiJ" firstAttribute="centerY" secondItem="iq8-9j-jsZ" secondAttribute="centerY" id="fzY-RY-xdO"/>
+                            <constraint firstItem="htO-Uz-5wD" firstAttribute="centerX" secondItem="VWJ-DF-eCN" secondAttribute="centerX" id="lXp-CS-n72"/>
+                            <constraint firstItem="Unq-jy-1NK" firstAttribute="leading" secondItem="VWJ-DF-eCN" secondAttribute="leading" constant="8" id="yIq-lT-Zgz"/>
+                            <constraint firstItem="htO-Uz-5wD" firstAttribute="leading" secondItem="iq8-9j-jsZ" secondAttribute="trailing" constant="4" id="yiQ-XE-wkc"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="VWJ-DF-eCN" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="J9w-ef-Or1"/>
+                    <constraint firstItem="VWJ-DF-eCN" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="Jq1-Kd-NYi"/>
+                    <constraint firstAttribute="bottom" secondItem="VWJ-DF-eCN" secondAttribute="bottom" id="MBK-Hm-uUs"/>
+                    <constraint firstAttribute="trailing" secondItem="VWJ-DF-eCN" secondAttribute="trailing" id="kqJ-wp-tx8"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <point key="canvasLocation" x="14" y="5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="friend mode" width="80" height="80"/>
+    </resources>
+</document>

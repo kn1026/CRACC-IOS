@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13528" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13526"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Myriad-Pro_31655.ttf">
+            <string>MyriadPro-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="A40-2f-igQ" customClass="TableSectionHeader" customModule="CRACC" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="A40-2f-igQ" id="5vV-8d-9lc">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sjD-kv-O4A">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FYU-T0-JQb">
+                                <rect key="frame" x="8" y="21.5" width="131.5" height="1"/>
+                                <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="1" id="wZC-OW-AoG"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FDT-JK-68U">
+                                <rect key="frame" x="235.5" y="21.5" width="131.5" height="1"/>
+                                <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="1" id="ndz-CK-ygq"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="My game" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="La2-JN-cce">
+                                <rect key="frame" x="147.5" y="11.5" width="80" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="80" id="XUO-is-cht"/>
+                                    <constraint firstAttribute="height" constant="21" id="z8Z-dz-GhS"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="MyriadPro-Regular" family="Myriad Pro" pointSize="18"/>
+                                <color key="textColor" red="0.36473968629999998" green="0.0" blue="0.37649244069999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="La2-JN-cce" firstAttribute="leading" secondItem="FYU-T0-JQb" secondAttribute="trailing" constant="8" symbolic="YES" id="1TW-8a-Ryh"/>
+                            <constraint firstItem="La2-JN-cce" firstAttribute="centerX" secondItem="sjD-kv-O4A" secondAttribute="centerX" id="Hhs-2X-8gH"/>
+                            <constraint firstItem="La2-JN-cce" firstAttribute="centerY" secondItem="sjD-kv-O4A" secondAttribute="centerY" id="OKW-ff-1ew"/>
+                            <constraint firstItem="La2-JN-cce" firstAttribute="centerY" secondItem="FYU-T0-JQb" secondAttribute="centerY" id="P7d-tm-ZXt"/>
+                            <constraint firstAttribute="trailing" secondItem="FDT-JK-68U" secondAttribute="trailing" constant="8" id="Qjb-kR-rzk"/>
+                            <constraint firstItem="FDT-JK-68U" firstAttribute="centerY" secondItem="La2-JN-cce" secondAttribute="centerY" id="Ram-ZU-Tor"/>
+                            <constraint firstItem="FYU-T0-JQb" firstAttribute="leading" secondItem="sjD-kv-O4A" secondAttribute="leading" constant="8" id="jhW-B5-mJk"/>
+                            <constraint firstItem="FDT-JK-68U" firstAttribute="leading" secondItem="La2-JN-cce" secondAttribute="trailing" constant="8" id="pPX-nY-vXN"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="sjD-kv-O4A" secondAttribute="trailing" id="8U8-Sr-Rz5"/>
+                    <constraint firstItem="sjD-kv-O4A" firstAttribute="top" secondItem="5vV-8d-9lc" secondAttribute="top" id="94B-1o-iD9"/>
+                    <constraint firstItem="sjD-kv-O4A" firstAttribute="leading" secondItem="5vV-8d-9lc" secondAttribute="leading" id="KOc-oZ-JEf"/>
+                    <constraint firstAttribute="bottom" secondItem="sjD-kv-O4A" secondAttribute="bottom" id="RET-Z7-8hY"/>
+                </constraints>
+            </tableViewCellContentView>
+            <point key="canvasLocation" x="276.5" y="867"/>
+        </tableViewCell>
+    </objects>
+</document>

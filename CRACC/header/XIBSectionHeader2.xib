@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13528" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13526"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Myriad-Pro_31655.ttf">
+            <string>MyriadPro-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="VPu-ZB-3wq" customClass="XIBSectionHeader2" customModule="CRACC" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="VPu-ZB-3wq" id="N09-eZ-QNM">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="R8I-Pi-32o">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fYX-6k-Esz">
+                                <rect key="frame" x="8" y="21.5" width="131.5" height="1"/>
+                                <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="1" id="dv7-hQ-9Kr"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rdR-9l-bdu">
+                                <rect key="frame" x="235.5" y="21.5" width="131.5" height="1"/>
+                                <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="1" id="JEP-Rq-qAw"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Game played" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="ntx-wu-fa1">
+                                <rect key="frame" x="147.5" y="11.5" width="80" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="bh3-Re-PIT"/>
+                                    <constraint firstAttribute="width" constant="80" id="c1g-Pd-FUM"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="MyriadPro-Regular" family="Myriad Pro" pointSize="17"/>
+                                <color key="textColor" red="0.36473968629999998" green="0.0" blue="0.37649244069999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="ntx-wu-fa1" firstAttribute="leading" secondItem="fYX-6k-Esz" secondAttribute="trailing" constant="8" symbolic="YES" id="0rw-oK-2me"/>
+                            <constraint firstItem="ntx-wu-fa1" firstAttribute="centerX" secondItem="R8I-Pi-32o" secondAttribute="centerX" id="8wj-Qd-cjV"/>
+                            <constraint firstItem="rdR-9l-bdu" firstAttribute="centerY" secondItem="ntx-wu-fa1" secondAttribute="centerY" id="Dum-Sp-bHM"/>
+                            <constraint firstItem="ntx-wu-fa1" firstAttribute="centerY" secondItem="R8I-Pi-32o" secondAttribute="centerY" id="GKr-rn-hV3"/>
+                            <constraint firstItem="rdR-9l-bdu" firstAttribute="leading" secondItem="ntx-wu-fa1" secondAttribute="trailing" constant="8" id="VgZ-un-8mr"/>
+                            <constraint firstItem="fYX-6k-Esz" firstAttribute="leading" secondItem="R8I-Pi-32o" secondAttribute="leading" constant="8" id="aJ9-c2-ncB"/>
+                            <constraint firstAttribute="trailing" secondItem="rdR-9l-bdu" secondAttribute="trailing" constant="8" id="iwm-QL-aYC"/>
+                            <constraint firstItem="ntx-wu-fa1" firstAttribute="centerY" secondItem="fYX-6k-Esz" secondAttribute="centerY" id="pJj-Yh-tNO"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="R8I-Pi-32o" firstAttribute="leading" secondItem="N09-eZ-QNM" secondAttribute="leading" id="Akb-F2-Bfv"/>
+                    <constraint firstAttribute="trailing" secondItem="R8I-Pi-32o" secondAttribute="trailing" id="kIV-y6-Uqo"/>
+                    <constraint firstAttribute="bottom" secondItem="R8I-Pi-32o" secondAttribute="bottom" id="sZ8-Wp-DNb"/>
+                    <constraint firstItem="R8I-Pi-32o" firstAttribute="top" secondItem="N09-eZ-QNM" secondAttribute="top" id="wgc-1Z-jOY"/>
+                </constraints>
+            </tableViewCellContentView>
+            <point key="canvasLocation" x="276.5" y="867"/>
+        </tableViewCell>
+    </objects>
+</document>
