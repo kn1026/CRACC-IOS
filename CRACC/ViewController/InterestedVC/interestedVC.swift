@@ -402,11 +402,7 @@ class interestedVC: UIViewController, UITableViewDelegate, UITableViewDataSource
             return nil
             
         }
-        
-        
-        
-        
-        
+           
     }
     
     // swipe table view

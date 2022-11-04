@@ -215,8 +215,6 @@ class chatVC: JSQMessagesViewController, UINavigationControllerDelegate, UIGestu
             
             if userKey != self.senderId {
                 
-                print(ModeChatDetected)
-                print(key)
                 
                 DataService.instance.mainDataBaseRef.child(ModeChatDetected).child(key).child("user").child(userKey).observeSingleEvent(of: .value, with: { (snapInfo) in
                     
@@ -301,7 +299,7 @@ class chatVC: JSQMessagesViewController, UINavigationControllerDelegate, UIGestu
             if let key = GroupKey {
                 
                 
-                DataService.instance.GameChatRef.child(key).child("online").child(userUID).setValue(0)
+                DataService.instance.GameChatRef.child(key).child("online").child(userUID).
                 let messageRef = DataService.instance.GameChatRef.child(key).child("message")
                 messageRef.removeObserver(withHandle: handleObserve)
             }

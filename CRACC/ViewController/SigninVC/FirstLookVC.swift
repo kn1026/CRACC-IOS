@@ -32,10 +32,7 @@ enum GenderControl {
 
 class FirstLookVC: UIViewController, GIDSignInUIDelegate, GIDSignInDelegate {
     
-    
-    
-    
-    
+ 
     var ControlGender = GenderControl.Gender
     
     // tap to dismiss keyboard
@@ -45,10 +42,7 @@ class FirstLookVC: UIViewController, GIDSignInUIDelegate, GIDSignInDelegate {
     
     @IBOutlet weak var pwdTextField: UITextField!
     
-    
-    
-    
-    
+
     
     var name: String?
     var birthday: String?
@@ -57,11 +51,7 @@ class FirstLookVC: UIViewController, GIDSignInUIDelegate, GIDSignInDelegate {
     var type: String?
     var gender: String?
     
-    
-    
-    
-    
-    
+
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -133,19 +123,11 @@ class FirstLookVC: UIViewController, GIDSignInUIDelegate, GIDSignInDelegate {
         let tokenAccess = user.authentication.accessToken
         let tokenID = user.authentication.idToken
         
-        
-        
-        
-        
-        
-        
         let credential = GoogleAuthProvider.credential(withIDToken: tokenID!,
                                                        accessToken: tokenAccess!)
         
         
-        
-        
-        
+
         
         Auth.auth().signIn(with: credential) { (user, error) in
             if let error = error {
@@ -263,23 +245,7 @@ class FirstLookVC: UIViewController, GIDSignInUIDelegate, GIDSignInDelegate {
                                             
                                         }
                                         
-                                        
-                                        
-                                        
-                                        
-                                        
-                                        
-                                        
-                                        
-                                        
-                                        
-                                        
-                                        
-                                        
-                                        
-                                        
-                                        
-                                        
+                                                                           
                                     }
                                 case .failure:
                                     

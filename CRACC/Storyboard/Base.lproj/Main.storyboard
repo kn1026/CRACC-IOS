@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="SWR-Hc-yPS">
-    <device id="retina4_7" orientation="portrait">
-        <adaptation id="fullscreen"/>
-    </device>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="SWR-Hc-yPS">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -26,16 +24,16 @@
             <objects>
                 <viewController storyboardIdentifier="LOGIN" id="3z2-58-gXE" customClass="FirstLookVC" customModule="CRACC" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleAspectFill" id="WG6-bz-I4U">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" alpha="0.90000000000000002" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="demo" translatesAutoresizingMaskIntoConstraints="NO" id="x1a-HS-dhL">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="711"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="691"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="Uoz-FW-rtg">
-                                <rect key="frame" x="13" y="95" width="349" height="477"/>
+                                <rect key="frame" x="13" y="85" width="349" height="477"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="I5O-dh-RXu">
                                         <rect key="frame" x="27.5" y="0.0" width="294" height="188"/>
@@ -114,7 +112,6 @@
                                                     <constraint firstAttribute="width" constant="294" id="hDq-ct-a0b"/>
                                                     <constraint firstAttribute="height" constant="30" id="hg8-az-DfD"/>
                                                 </constraints>
-                                                <nil key="textColor"/>
                                                 <fontDescription key="fontDescription" name="MyriadPro-Regular" family="Myriad Pro" pointSize="17"/>
                                                 <textInputTraits key="textInputTraits"/>
                                             </textField>
@@ -124,7 +121,6 @@
                                                     <constraint firstAttribute="height" constant="30" id="EpK-kh-CUV"/>
                                                     <constraint firstAttribute="width" constant="294" id="od3-h7-q4i"/>
                                                 </constraints>
-                                                <nil key="textColor"/>
                                                 <fontDescription key="fontDescription" name="MyriadPro-Regular" family="Myriad Pro" pointSize="17"/>
                                                 <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                                             </textField>
@@ -275,22 +271,22 @@
             <objects>
                 <viewController id="C2Z-rt-YCu" customClass="forgetPwdVC" customModule="CRACC" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8wb-Ac-RcP">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fds-ow-oCu">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" alpha="0.90000000000000002" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="demo" translatesAutoresizingMaskIntoConstraints="NO" id="ldw-0N-Hqt">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="711"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="691"/>
                                         <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
                                     </imageView>
                                     <view alpha="0.20000000298023224" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6Su-Fz-A17">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
                                         <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </view>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ODs-v6-23K" customClass="loginBtn" customModule="CRACC" customModuleProvider="target">
-                                        <rect key="frame" x="110.5" y="142" width="154" height="52"/>
+                                        <rect key="frame" x="110.5" y="126" width="154" height="52"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="154" id="9t2-4k-W2X"/>
                                             <constraint firstAttribute="height" constant="52" id="ypJ-7S-Eoe"/>
@@ -316,13 +312,12 @@
                                         </connections>
                                     </button>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="email..." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Ied-IK-bis">
-                                        <rect key="frame" x="30" y="96" width="315" height="30"/>
-                                        <nil key="textColor"/>
+                                        <rect key="frame" x="30" y="76" width="315" height="34"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Forget password" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="7na-U0-OxS">
-                                        <rect key="frame" x="130.5" y="63" width="114" height="21"/>
+                                        <rect key="frame" x="130.5" y="43" width="114" height="21"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="21" id="RdI-4w-Fan"/>
                                             <constraint firstAttribute="width" constant="114" id="Y9M-kZ-mqf"/>
@@ -332,21 +327,21 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Mg7-9O-ZtF">
-                                        <rect key="frame" x="8" y="73" width="114.5" height="1"/>
+                                        <rect key="frame" x="8" y="53" width="114.5" height="1"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="1" id="9Dq-fn-Ch8"/>
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Tmt-i9-9YU">
-                                        <rect key="frame" x="252.5" y="73" width="106.5" height="1"/>
+                                        <rect key="frame" x="252.5" y="53" width="106.5" height="1"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="1" id="WdQ-uS-AlL"/>
                                         </constraints>
                                     </view>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bZZ-gO-BBU">
-                                        <rect key="frame" x="105" y="202" width="165" height="25"/>
+                                        <rect key="frame" x="105" y="186" width="165" height="25"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="165" id="Fre-lz-ZAs"/>
                                             <constraint firstAttribute="height" constant="25" id="Rbc-dy-Afy"/>
@@ -419,19 +414,19 @@
             <objects>
                 <viewController id="Uu2-xm-Vuo" customClass="signUpVC" customModule="CRACC" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="QHP-PR-sfo">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" alpha="0.90000000000000002" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="demo" translatesAutoresizingMaskIntoConstraints="NO" id="esE-ZL-kQG">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="711"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="691"/>
                                 <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
                             </imageView>
                             <view alpha="0.20000000298023224" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lGB-kg-fxL">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
                                 <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dNH-o0-zsO" customClass="loginBtn" customModule="CRACC" customModuleProvider="target">
-                                <rect key="frame" x="110.5" y="258" width="154" height="52"/>
+                                <rect key="frame" x="110.5" y="240" width="154" height="52"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="154" id="aG6-ka-kRW"/>
                                     <constraint firstAttribute="height" constant="52" id="w0i-wS-5tx"/>
@@ -457,14 +452,14 @@
                                 </connections>
                             </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="reI-zu-KxY">
-                                <rect key="frame" x="252.5" y="50" width="106.5" height="1"/>
+                                <rect key="frame" x="252.5" y="30" width="106.5" height="1"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="1" id="7Hc-My-FXe"/>
                                 </constraints>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Create acccount" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="I40-pY-Lae">
-                                <rect key="frame" x="130.5" y="40" width="114" height="21"/>
+                                <rect key="frame" x="130.5" y="20" width="114" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="114" id="aCE-Jh-MYt"/>
                                     <constraint firstAttribute="height" constant="21" id="bPf-7R-FSM"/>
@@ -474,26 +469,24 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UHc-8Z-ozd">
-                                <rect key="frame" x="16" y="50" width="106.5" height="1"/>
+                                <rect key="frame" x="16" y="30" width="106.5" height="1"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="1" id="87p-g3-ZMW"/>
                                 </constraints>
                             </view>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="First name..." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="8FI-D9-sam">
-                                <rect key="frame" x="30" y="203" width="151" height="30"/>
-                                <nil key="textColor"/>
+                                <rect key="frame" x="30" y="181" width="151" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Last name..." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dJO-Ml-zxJ">
-                                <rect key="frame" x="194" y="203" width="151" height="30"/>
-                                <nil key="textColor"/>
+                                <rect key="frame" x="194" y="181" width="151" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IAm-Gz-fQL">
-                                <rect key="frame" x="181" y="203" width="13" height="30"/>
+                                <rect key="frame" x="181" y="183" width="13" height="30"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="hOs-zb-eMQ"/>
@@ -501,7 +494,7 @@
                                 </constraints>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X1Y-c9-3yR" customClass="RoundBtn" customModule="CRACC" customModuleProvider="target">
-                                <rect key="frame" x="132.5" y="77" width="110" height="110"/>
+                                <rect key="frame" x="132.5" y="57" width="110" height="110"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="110" id="N7p-lP-V6j"/>
                                     <constraint firstAttribute="height" constant="110" id="erv-Ax-7jV"/>
@@ -523,21 +516,21 @@
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="5Ib-Y6-jN0" customClass="ImageRound" customModule="CRACC" customModuleProvider="target">
-                                <rect key="frame" x="132.5" y="77" width="110" height="110"/>
+                                <rect key="frame" x="132.5" y="57" width="110" height="110"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="110" id="1ii-Vl-lQY"/>
                                     <constraint firstAttribute="height" constant="110" id="QVj-cJ-auO"/>
                                 </constraints>
                             </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5nY-4Y-9Qf">
-                                <rect key="frame" x="0.0" y="663" width="375" height="4"/>
+                                <rect key="frame" x="0.0" y="643" width="375" height="4"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="4" id="bOE-kr-fbb"/>
                                 </constraints>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9uQ-Yl-Qt5">
-                                <rect key="frame" x="105" y="310" width="165" height="25"/>
+                                <rect key="frame" x="105" y="292" width="165" height="25"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="165" id="bdl-Gp-GB9"/>
                                     <constraint firstAttribute="height" constant="25" id="ilD-jm-h7G"/>
@@ -617,21 +610,21 @@
             <objects>
                 <viewController id="AgC-bF-fVq" customClass="signUpVC2" customModule="CRACC" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="fgg-yq-Kog">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="I7y-f9-N34">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DOo-qa-nEB">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
                                         <subviews>
                                             <imageView userInteractionEnabled="NO" alpha="0.89999997615814209" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="demo" translatesAutoresizingMaskIntoConstraints="NO" id="T2Y-kl-zcS">
-                                                <rect key="frame" x="0.0" y="0.0" width="375" height="711"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="375" height="691"/>
                                                 <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
                                             </imageView>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vA2-Xe-noI" customClass="RoundedBtn" customModule="CRACC" customModuleProvider="target">
-                                                <rect key="frame" x="195" y="104" width="100" height="37"/>
+                                                <rect key="frame" x="195" y="84" width="100" height="37"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="37" id="8TM-81-MiG"/>
@@ -645,7 +638,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fch-Mh-bUc" customClass="loginBtn" customModule="CRACC" customModuleProvider="target">
-                                                <rect key="frame" x="110.5" y="187" width="154" height="52"/>
+                                                <rect key="frame" x="110.5" y="171" width="154" height="52"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="154" id="IO0-LE-iBg"/>
                                                     <constraint firstAttribute="height" constant="52" id="dPC-XK-gTd"/>
@@ -672,18 +665,17 @@
                                                 </connections>
                                             </button>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="6" translatesAutoresizingMaskIntoConstraints="NO" id="ad5-SQ-luT">
-                                                <rect key="frame" x="30" y="149" width="315" height="30"/>
+                                                <rect key="frame" x="30" y="129" width="315" height="34"/>
                                                 <subviews>
                                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Birthday..." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="mcC-d7-fw9">
-                                                        <rect key="frame" x="0.0" y="0.0" width="315" height="30"/>
-                                                        <nil key="textColor"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="315" height="34"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                         <textInputTraits key="textInputTraits"/>
                                                     </textField>
                                                 </subviews>
                                             </stackView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Create account" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="EuM-fm-2QN">
-                                                <rect key="frame" x="130.5" y="63" width="114" height="21"/>
+                                                <rect key="frame" x="130.5" y="43" width="114" height="21"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="114" id="Bzq-tL-Fn1"/>
                                                     <constraint firstAttribute="height" constant="21" id="N4g-MN-ttm"/>
@@ -693,21 +685,21 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WZI-Ke-F2c">
-                                                <rect key="frame" x="8" y="73" width="114.5" height="1"/>
+                                                <rect key="frame" x="8" y="53" width="114.5" height="1"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="1" id="Oau-cX-dr3"/>
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="K47-c1-EPd">
-                                                <rect key="frame" x="252.5" y="73" width="106.5" height="1"/>
+                                                <rect key="frame" x="252.5" y="53" width="106.5" height="1"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="1" id="2d6-Cg-BCL"/>
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="v4a-Mz-SoU">
-                                                <rect key="frame" x="180" y="104" width="15" height="37"/>
+                                                <rect key="frame" x="180" y="84" width="15" height="37"/>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="15" id="AVT-bs-HRo"/>
@@ -715,7 +707,7 @@
                                                 </constraints>
                                             </view>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wnj-Ld-Ixp">
-                                                <rect key="frame" x="105" y="247" width="165" height="25"/>
+                                                <rect key="frame" x="105" y="231" width="165" height="25"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="165" id="3Gz-LB-idW"/>
                                                     <constraint firstAttribute="height" constant="25" id="dsL-EV-mvI"/>
@@ -738,7 +730,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uj1-iQ-D7x" customClass="RoundedBtn" customModule="CRACC" customModuleProvider="target">
-                                                <rect key="frame" x="80" y="104" width="100" height="37"/>
+                                                <rect key="frame" x="80" y="84" width="100" height="37"/>
                                                 <color key="backgroundColor" red="0.44310975070000003" green="0.43529838320000003" blue="0.43529382350000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="37" id="1Nb-c7-jaI"/>
@@ -821,54 +813,50 @@
             <objects>
                 <viewController id="y0V-dT-Nq2" customClass="signUpVC3" customModule="CRACC" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="egR-JM-mQn">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="81Z-DQ-tOO">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1ad-09-RHB">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
                                         <subviews>
                                             <imageView userInteractionEnabled="NO" alpha="0.89999997615814209" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="demo" translatesAutoresizingMaskIntoConstraints="NO" id="NoP-Hh-UpE">
-                                                <rect key="frame" x="0.0" y="0.0" width="375" height="711"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="375" height="691"/>
                                                 <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
                                             </imageView>
                                             <view alpha="0.20000000298023224" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="szW-lL-2V2">
-                                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
                                                 <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             </view>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="6" translatesAutoresizingMaskIntoConstraints="NO" id="RQ6-lO-cdQ">
-                                                <rect key="frame" x="30" y="92" width="315" height="138"/>
+                                                <rect key="frame" x="30" y="72" width="315" height="154"/>
                                                 <subviews>
                                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Nickname..." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="bpb-xe-eGH">
-                                                        <rect key="frame" x="0.0" y="0.0" width="315" height="30"/>
-                                                        <nil key="textColor"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="315" height="34"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                         <textInputTraits key="textInputTraits"/>
                                                     </textField>
                                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email..." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="rdD-0a-Frz">
-                                                        <rect key="frame" x="0.0" y="36" width="315" height="30"/>
-                                                        <nil key="textColor"/>
+                                                        <rect key="frame" x="0.0" y="40" width="315" height="34"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                         <textInputTraits key="textInputTraits"/>
                                                     </textField>
                                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password..." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="yvz-4K-1Mn">
-                                                        <rect key="frame" x="0.0" y="72" width="315" height="30"/>
-                                                        <nil key="textColor"/>
+                                                        <rect key="frame" x="0.0" y="80" width="315" height="34"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                         <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                                                     </textField>
                                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Confirm password..." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="g9N-FF-VNF">
-                                                        <rect key="frame" x="0.0" y="108" width="315" height="30"/>
-                                                        <nil key="textColor"/>
+                                                        <rect key="frame" x="0.0" y="120" width="315" height="34"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                         <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                                                     </textField>
                                                 </subviews>
                                             </stackView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Create account" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="VMs-8E-muD">
-                                                <rect key="frame" x="130.5" y="63" width="114" height="21"/>
+                                                <rect key="frame" x="130.5" y="43" width="114" height="21"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="21" id="92u-wT-ilF"/>
                                                     <constraint firstAttribute="width" constant="114" id="u5y-ym-Jdx"/>
@@ -878,21 +866,21 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mqs-RP-22e">
-                                                <rect key="frame" x="8" y="73" width="114.5" height="1"/>
+                                                <rect key="frame" x="8" y="53" width="114.5" height="1"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="1" id="Hfc-Fd-meQ"/>
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="I6U-Ew-hdK">
-                                                <rect key="frame" x="252.5" y="73" width="106.5" height="1"/>
+                                                <rect key="frame" x="252.5" y="53" width="106.5" height="1"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="1" id="bUS-Qc-iXN"/>
                                                 </constraints>
                                             </view>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iGb-cn-O4v" customClass="loginBtn" customModule="CRACC" customModuleProvider="target">
-                                                <rect key="frame" x="110.5" y="240" width="154" height="52"/>
+                                                <rect key="frame" x="110.5" y="236" width="154" height="52"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="52" id="3oD-26-Auh"/>
                                                     <constraint firstAttribute="width" constant="154" id="Rtj-an-rLl"/>
@@ -919,7 +907,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Co3-KG-S8l">
-                                                <rect key="frame" x="105" y="292" width="165" height="25"/>
+                                                <rect key="frame" x="105" y="288" width="165" height="25"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="165" id="5zd-HF-dc5"/>
                                                     <constraint firstAttribute="height" constant="25" id="vBk-d4-VXy"/>
@@ -1008,22 +996,22 @@
             <objects>
                 <viewController id="GCW-jZ-Z2J" customClass="FacebookSupportVC" customModule="CRACC" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="qWR-st-uGV">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dab-86-afg">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" alpha="0.89999997615814209" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="demo" translatesAutoresizingMaskIntoConstraints="NO" id="8af-QH-MC9">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="711"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="691"/>
                                         <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
                                     </imageView>
                                     <view alpha="0.20000000298023224" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7Kq-iy-be2">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
                                         <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </view>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="292-et-trP" customClass="RoundedBtn" customModule="CRACC" customModuleProvider="target">
-                                        <rect key="frame" x="195" y="104" width="100" height="37"/>
+                                        <rect key="frame" x="195" y="84" width="100" height="37"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="37" id="YoB-D2-dgh"/>
@@ -1037,7 +1025,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="862-e4-zjY" customClass="loginBtn" customModule="CRACC" customModuleProvider="target">
-                                        <rect key="frame" x="110.5" y="231" width="154" height="52"/>
+                                        <rect key="frame" x="110.5" y="219" width="154" height="52"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="154" id="Lt3-as-QtI"/>
                                             <constraint firstAttribute="height" constant="52" id="gmP-w8-LW0"/>
@@ -1066,24 +1054,22 @@
                                         </connections>
                                     </button>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="6" translatesAutoresizingMaskIntoConstraints="NO" id="wgU-NV-Loj">
-                                        <rect key="frame" x="30" y="149" width="315" height="66"/>
+                                        <rect key="frame" x="30" y="129" width="315" height="74"/>
                                         <subviews>
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Nickname..." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="xmb-hp-GqC">
-                                                <rect key="frame" x="0.0" y="0.0" width="315" height="30"/>
-                                                <nil key="textColor"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="315" height="34"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits"/>
                                             </textField>
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Birthday..." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="LH4-C3-EGs">
-                                                <rect key="frame" x="0.0" y="36" width="315" height="30"/>
-                                                <nil key="textColor"/>
+                                                <rect key="frame" x="0.0" y="40" width="315" height="34"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits"/>
                                             </textField>
                                         </subviews>
                                     </stackView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Create account" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="Tkr-wq-Oip">
-                                        <rect key="frame" x="130.5" y="63" width="114" height="21"/>
+                                        <rect key="frame" x="130.5" y="43" width="114" height="21"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="21" id="syi-hO-jcd"/>
                                             <constraint firstAttribute="width" constant="114" id="t4m-5p-REG"/>
@@ -1093,21 +1079,21 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Kuf-yw-PIX">
-                                        <rect key="frame" x="8" y="73" width="114.5" height="1"/>
+                                        <rect key="frame" x="8" y="53" width="114.5" height="1"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="1" id="bds-mX-AmF"/>
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="N2g-un-5qF">
-                                        <rect key="frame" x="252.5" y="73" width="106.5" height="1"/>
+                                        <rect key="frame" x="252.5" y="53" width="106.5" height="1"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="1" id="toB-WK-uKk"/>
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XLP-nM-4cQ">
-                                        <rect key="frame" x="180" y="104" width="15" height="37"/>
+                                        <rect key="frame" x="180" y="84" width="15" height="37"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="15" id="Gz3-O4-mjh"/>
@@ -1115,7 +1101,7 @@
                                         </constraints>
                                     </view>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fuf-S4-Y9C" customClass="RoundedBtn" customModule="CRACC" customModuleProvider="target">
-                                        <rect key="frame" x="80" y="104" width="100" height="37"/>
+                                        <rect key="frame" x="80" y="84" width="100" height="37"/>
                                         <color key="backgroundColor" red="0.44310975070000003" green="0.43529838320000003" blue="0.43529382350000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="100" id="5hQ-eD-KCu"/>
@@ -1129,7 +1115,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9Ry-eJ-CYr">
-                                        <rect key="frame" x="105" y="291" width="165" height="25"/>
+                                        <rect key="frame" x="105" y="279" width="165" height="25"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="165" id="Ggn-he-oQ8"/>
                                             <constraint firstAttribute="height" constant="25" id="RFB-b4-FWt"/>
@@ -1217,7 +1203,7 @@
             <objects>
                 <viewController id="SWR-Hc-yPS" customClass="ContainerVC" customModule="CRACC" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="mCj-f1-geG">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="SZN-gj-X9d"/>
@@ -1235,22 +1221,22 @@
             <objects>
                 <viewController id="6zn-ly-tjs" customClass="GoogleSupportVC2" customModule="CRACC" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="K2v-He-uB7">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Zot-3J-lHX">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" alpha="0.89999997615814209" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="demo" translatesAutoresizingMaskIntoConstraints="NO" id="WYG-Cm-lvQ">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="711"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="691"/>
                                         <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
                                     </imageView>
                                     <view alpha="0.20000000000000001" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fmJ-WD-9ZO">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
                                         <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </view>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3P2-r1-9Vu" customClass="RoundedBtn" customModule="CRACC" customModuleProvider="target">
-                                        <rect key="frame" x="195" y="104" width="100" height="37"/>
+                                        <rect key="frame" x="195" y="84" width="100" height="37"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="37" id="9nI-5Y-eSC"/>
@@ -1264,7 +1250,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RF7-Ak-2z6" customClass="loginBtn" customModule="CRACC" customModuleProvider="target">
-                                        <rect key="frame" x="110.5" y="231" width="154" height="52"/>
+                                        <rect key="frame" x="110.5" y="219" width="154" height="52"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="52" id="B6j-2q-yBZ"/>
                                             <constraint firstAttribute="width" constant="154" id="sE5-1c-fTb"/>
@@ -1292,24 +1278,22 @@
                                         </connections>
                                     </button>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="6" translatesAutoresizingMaskIntoConstraints="NO" id="8H6-87-Li3">
-                                        <rect key="frame" x="30" y="149" width="315" height="66"/>
+                                        <rect key="frame" x="30" y="129" width="315" height="74"/>
                                         <subviews>
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Nickname..." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Mgx-Yg-Kxu">
-                                                <rect key="frame" x="0.0" y="0.0" width="315" height="30"/>
-                                                <nil key="textColor"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="315" height="34"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits"/>
                                             </textField>
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Birthday..." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="gUB-u4-A27">
-                                                <rect key="frame" x="0.0" y="36" width="315" height="30"/>
-                                                <nil key="textColor"/>
+                                                <rect key="frame" x="0.0" y="40" width="315" height="34"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits"/>
                                             </textField>
                                         </subviews>
                                     </stackView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Create account" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="3Ro-oZ-s2y">
-                                        <rect key="frame" x="130.5" y="63" width="114" height="21"/>
+                                        <rect key="frame" x="130.5" y="43" width="114" height="21"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="114" id="ZhG-03-fws"/>
                                             <constraint firstAttribute="height" constant="21" id="mNf-vP-d5w"/>
@@ -1319,21 +1303,21 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QNc-H9-oUb">
-                                        <rect key="frame" x="8" y="73" width="114.5" height="1"/>
+                                        <rect key="frame" x="8" y="53" width="114.5" height="1"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="1" id="ezX-Iz-kKm"/>
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QUN-0k-2KC">
-                                        <rect key="frame" x="252.5" y="73" width="106.5" height="1"/>
+                                        <rect key="frame" x="252.5" y="53" width="106.5" height="1"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="1" id="eH0-79-pJD"/>
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iVp-Zg-0Nr">
-                                        <rect key="frame" x="180" y="104" width="15" height="37"/>
+                                        <rect key="frame" x="180" y="84" width="15" height="37"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="37" id="NTc-oo-Gqo"/>
@@ -1341,7 +1325,7 @@
                                         </constraints>
                                     </view>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vcv-XV-VYs" customClass="RoundedBtn" customModule="CRACC" customModuleProvider="target">
-                                        <rect key="frame" x="80" y="104" width="100" height="37"/>
+                                        <rect key="frame" x="80" y="84" width="100" height="37"/>
                                         <color key="backgroundColor" red="0.44310975070000003" green="0.43529838320000003" blue="0.43529382350000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="100" id="9ta-5M-sXh"/>
@@ -1355,7 +1339,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Hhr-he-HDM">
-                                        <rect key="frame" x="105" y="291" width="165" height="25"/>
+                                        <rect key="frame" x="105" y="279" width="165" height="25"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="165" id="FwY-Ow-C7U"/>
                                             <constraint firstAttribute="height" constant="25" id="zda-7c-6TX"/>
@@ -1443,22 +1427,22 @@
             <objects>
                 <viewController id="dZF-2g-PG8" customClass="GoogleSupportVC" customModule="CRACC" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="1RB-rR-0tc">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zvn-WK-7Xl">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" alpha="0.89999997615814209" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="demo" translatesAutoresizingMaskIntoConstraints="NO" id="x5f-K7-Yfe">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="711"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="691"/>
                                         <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
                                     </imageView>
                                     <view alpha="0.20000000298023224" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zuf-YA-41E">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
                                         <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </view>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ayT-Ip-zBs" customClass="loginBtn" customModule="CRACC" customModuleProvider="target">
-                                        <rect key="frame" x="110.5" y="166" width="154" height="52"/>
+                                        <rect key="frame" x="110.5" y="154" width="154" height="52"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="154" id="S3y-h3-rCB"/>
                                             <constraint firstAttribute="height" constant="52" id="vta-AF-1Q2"/>
@@ -1485,24 +1469,22 @@
                                         </connections>
                                     </button>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="6" translatesAutoresizingMaskIntoConstraints="NO" id="an6-r5-TsH">
-                                        <rect key="frame" x="30" y="92" width="315" height="66"/>
+                                        <rect key="frame" x="30" y="72" width="315" height="74"/>
                                         <subviews>
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Nickname..." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dar-je-YMD">
-                                                <rect key="frame" x="0.0" y="0.0" width="315" height="30"/>
-                                                <nil key="textColor"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="315" height="34"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits"/>
                                             </textField>
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Birthday..." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="qQX-6i-bMU">
-                                                <rect key="frame" x="0.0" y="36" width="315" height="30"/>
-                                                <nil key="textColor"/>
+                                                <rect key="frame" x="0.0" y="40" width="315" height="34"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits"/>
                                             </textField>
                                         </subviews>
                                     </stackView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Create account" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="Srp-oD-2kh">
-                                        <rect key="frame" x="130.5" y="63" width="114" height="21"/>
+                                        <rect key="frame" x="130.5" y="43" width="114" height="21"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="21" id="CYu-96-KV8"/>
                                             <constraint firstAttribute="width" constant="114" id="zDZ-mk-yyx"/>
@@ -1512,21 +1494,21 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="D7T-XK-DZV">
-                                        <rect key="frame" x="8" y="73" width="114.5" height="1"/>
+                                        <rect key="frame" x="8" y="53" width="114.5" height="1"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="1" id="nqx-rq-xEk"/>
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ziq-1T-JzH">
-                                        <rect key="frame" x="252.5" y="73" width="106.5" height="1"/>
+                                        <rect key="frame" x="252.5" y="53" width="106.5" height="1"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="1" id="dJc-5A-4pB"/>
                                         </constraints>
                                     </view>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6PZ-7K-Rcv">
-                                        <rect key="frame" x="105" y="226" width="165" height="25"/>
+                                        <rect key="frame" x="105" y="214" width="165" height="25"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="25" id="Nks-md-vRx"/>
                                             <constraint firstAttribute="width" constant="165" id="Rov-N2-jkK"/>
@@ -1708,7 +1690,7 @@
                                                         </constraints>
                                                     </imageView>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Recently Played" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N9t-7i-Ao6">
-                                                        <rect key="frame" x="61" y="47" width="171" height="17"/>
+                                                        <rect key="frame" x="61" y="44" width="171" height="20"/>
                                                         <fontDescription key="fontDescription" name="MyriadPro-Regular" family="Myriad Pro" pointSize="17"/>
                                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <nil key="highlightedColor"/>
@@ -1758,7 +1740,7 @@
                                                         <rect key="frame" x="0.0" y="28" width="240" height="67"/>
                                                         <autoresizingMask key="autoresizingMask"/>
                                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="1Pw-Mc-si9" id="k5x-V5-uBa">
-                                                            <rect key="frame" x="0.0" y="0.0" width="240" height="66.5"/>
+                                                            <rect key="frame" x="0.0" y="0.0" width="240" height="67"/>
                                                             <autoresizingMask key="autoresizingMask"/>
                                                             <subviews>
                                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Vy" translatesAutoresizingMaskIntoConstraints="NO" id="hjz-JG-GY9" customClass="RoundedImgAndBorder" customModule="CRACC" customModuleProvider="target">
@@ -1878,7 +1860,7 @@
             <objects>
                 <viewController id="bx9-xY-psl" customClass="CommunityVC" customModule="CRACC" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="FQ8-6U-1Wd">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bUO-aB-nM1">
@@ -1892,7 +1874,7 @@
                                         </constraints>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Community" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="32D-TJ-OKQ">
-                                        <rect key="frame" x="41" y="35" width="326" height="19"/>
+                                        <rect key="frame" x="41" y="31.5" width="326" height="22.5"/>
                                         <fontDescription key="fontDescription" name="MyriadPro-Regular" family="Myriad Pro" pointSize="19"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
@@ -1935,7 +1917,7 @@
                                 </constraints>
                             </view>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="reJ-a8-f1y">
-                                <rect key="frame" x="0.0" y="62" width="375" height="649"/>
+                                <rect key="frame" x="0.0" y="62" width="375" height="629"/>
                                 <color key="backgroundColor" red="0.98039215686274506" green="0.97254901960784312" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="CommunityCell" rowHeight="95" id="bIJ-kQ-tB7" customClass="CommunityCell" customModule="CRACC" customModuleProvider="target">
@@ -2051,7 +2033,7 @@
             <objects>
                 <viewController storyboardIdentifier="2" useStoryboardIdentifierAsRestorationIdentifier="YES" id="BYZ-38-t0r" customClass="MapVC" customModule="CRACC" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aj1-cH-Ud5">
@@ -2112,11 +2094,11 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="D2c-ew-QkD" customClass="GMSMapView">
-                                <rect key="frame" x="0.0" y="70" width="375" height="597"/>
+                                <rect key="frame" x="0.0" y="70" width="375" height="577"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ECI-yI-OSo" customClass="RoundBtn">
-                                <rect key="frame" x="337" y="450" width="30" height="30"/>
+                                <rect key="frame" x="337" y="430" width="30" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="9o2-38-MSL"/>
                                     <constraint firstAttribute="width" constant="30" id="zqJ-U5-Yp2"/>
@@ -2127,7 +2109,7 @@
                                 </connections>
                             </button>
                             <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WV4-Nf-jv8">
-                                <rect key="frame" x="0.0" y="666" width="375" height="1"/>
+                                <rect key="frame" x="0.0" y="646" width="375" height="1"/>
                                 <color key="backgroundColor" red="1" green="0.05045503329" blue="0.031620800599999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="1" id="erV-G2-soy"/>
@@ -2192,7 +2174,7 @@
                                                 </constraints>
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Thao Vy" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="vQx-Dj-eNn">
-                                                <rect key="frame" x="61" y="25" width="161" height="17"/>
+                                                <rect key="frame" x="61" y="22" width="161" height="20"/>
                                                 <fontDescription key="fontDescription" name="MyriadPro-Regular" family="Myriad Pro" pointSize="17"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
@@ -2560,7 +2542,7 @@
                                 </constraints>
                             </view>
                             <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4iI-gD-tDO" customClass="ModifiedInformationView" customModule="CRACC" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="133.5" width="375" height="400"/>
+                                <rect key="frame" x="0.0" y="123.5" width="375" height="400"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Create a game" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="38h-ku-96W">
                                         <rect key="frame" x="96" y="0.0" width="183" height="39"/>
@@ -2604,13 +2586,12 @@
                                         </constraints>
                                     </imageView>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Name" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="6Lw-w4-k7y">
-                                        <rect key="frame" x="41" y="112" width="292" height="30"/>
+                                        <rect key="frame" x="41" y="112" width="292" height="34"/>
                                         <fontDescription key="fontDescription" name="MyriadPro-Regular" family="Myriad Pro" pointSize="17"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <textField opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="252" verticalCompressionResistancePriority="751" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Location" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="8s0-uG-YEU">
-                                        <rect key="frame" x="41" y="156" width="292" height="30"/>
-                                        <nil key="textColor"/>
+                                        <rect key="frame" x="41" y="160" width="292" height="34"/>
                                         <fontDescription key="fontDescription" name="MyriadPro-Regular" family="Myriad Pro" pointSize="17"/>
                                         <textInputTraits key="textInputTraits"/>
                                         <connections>
@@ -2618,8 +2599,7 @@
                                         </connections>
                                     </textField>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Date &amp; time" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="otK-gL-ca8">
-                                        <rect key="frame" x="41" y="200" width="292" height="30"/>
-                                        <nil key="textColor"/>
+                                        <rect key="frame" x="41" y="208" width="292" height="34"/>
                                         <fontDescription key="fontDescription" name="MyriadPro-Regular" family="Myriad Pro" pointSize="17"/>
                                         <textInputTraits key="textInputTraits"/>
                                         <connections>
@@ -2627,10 +2607,10 @@
                                         </connections>
                                     </textField>
                                     <view tag="-1" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vdy-Yu-jjg">
-                                        <rect key="frame" x="0.0" y="318" width="375" height="82"/>
+                                        <rect key="frame" x="0.0" y="334" width="375" height="66"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EZI-cf-5dC">
-                                                <rect key="frame" x="113.5" y="18" width="148" height="46"/>
+                                                <rect key="frame" x="113.5" y="10" width="148" height="46"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="148" id="5AJ-j6-Opm"/>
@@ -2663,7 +2643,7 @@
                                         </constraints>
                                     </view>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="rain" translatesAutoresizingMaskIntoConstraints="NO" id="bcx-X9-Q2A">
-                                        <rect key="frame" x="302" y="186" width="69" height="58"/>
+                                        <rect key="frame" x="302" y="196" width="69" height="58"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="58" id="dfR-FA-RMn"/>
                                             <constraint firstAttribute="width" constant="69" id="qgo-aX-WbG"/>
@@ -2699,8 +2679,7 @@
                                         </constraints>
                                     </view>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Number of people" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="EUR-on-fEM">
-                                        <rect key="frame" x="41" y="244" width="292" height="30"/>
-                                        <nil key="textColor"/>
+                                        <rect key="frame" x="41" y="256" width="292" height="34"/>
                                         <fontDescription key="fontDescription" name="MyriadPro-Regular" family="Myriad Pro" pointSize="17"/>
                                         <textInputTraits key="textInputTraits"/>
                                         <connections>
@@ -2708,7 +2687,7 @@
                                         </connections>
                                     </textField>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bQc-Vk-MXc">
-                                        <rect key="frame" x="7" y="244" width="30" height="30"/>
+                                        <rect key="frame" x="7" y="258" width="30" height="30"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="30" id="4zV-Jk-mI9"/>
                                             <constraint firstAttribute="width" constant="30" id="Ruw-r5-Ojk"/>
@@ -2743,7 +2722,7 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="v0C-SE-PMX">
-                                        <rect key="frame" x="177.5" y="288" width="20" height="30"/>
+                                        <rect key="frame" x="177.5" y="304" width="20" height="30"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="20" id="Gwd-pn-EeI"/>
@@ -2751,8 +2730,7 @@
                                         </constraints>
                                     </view>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Age" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="wB6-w7-zUs">
-                                        <rect key="frame" x="197.5" y="288" width="112.5" height="30"/>
-                                        <nil key="textColor"/>
+                                        <rect key="frame" x="197.5" y="302" width="112.5" height="34"/>
                                         <fontDescription key="fontDescription" name="MyriadPro-Regular" family="Myriad Pro" pointSize="17"/>
                                         <textInputTraits key="textInputTraits"/>
                                         <connections>
@@ -2760,8 +2738,7 @@
                                         </connections>
                                     </textField>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Gender" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="gMw-dz-r10">
-                                        <rect key="frame" x="65" y="288" width="112.5" height="30"/>
-                                        <nil key="textColor"/>
+                                        <rect key="frame" x="65" y="302" width="112.5" height="34"/>
                                         <fontDescription key="fontDescription" name="MyriadPro-Regular" family="Myriad Pro" pointSize="17"/>
                                         <textInputTraits key="textInputTraits"/>
                                         <connections>
@@ -2851,7 +2828,7 @@
                                 </constraints>
                             </view>
                             <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HUU-ek-y1g" customClass="ModifiedChooseGameView" customModule="CRACC" customModuleProvider="target">
-                                <rect key="frame" x="60" y="544" width="315" height="72"/>
+                                <rect key="frame" x="60" y="524" width="315" height="72"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rmV-fR-VvA">
                                         <rect key="frame" x="0.0" y="0.0" width="15" height="72"/>
@@ -2888,7 +2865,7 @@
                                                             </constraints>
                                                         </imageView>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Basketball" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W1Y-6P-Sjl">
-                                                            <rect key="frame" x="0.0" y="55" width="73" height="15"/>
+                                                            <rect key="frame" x="0.0" y="52.5" width="73" height="17.5"/>
                                                             <fontDescription key="fontDescription" name="MyriadPro-Regular" family="Myriad Pro" pointSize="15"/>
                                                             <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                             <nil key="highlightedColor"/>
@@ -2925,7 +2902,7 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BAY-Tg-a0I">
-                                <rect key="frame" x="350" y="554" width="25" height="72"/>
+                                <rect key="frame" x="350" y="534" width="25" height="72"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Rz3-Fo-8s4" customClass="OpenOpenGameChooseView" customModule="CRACC" customModuleProvider="target">
                                         <rect key="frame" x="15" y="0.0" width="10" height="72"/>
@@ -2956,7 +2933,7 @@
                                 </constraints>
                             </view>
                             <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cph-BO-Yw5" customClass="ModifiedCornerRariusView" customModule="CRACC" customModuleProvider="target">
-                                <rect key="frame" x="155" y="0.0" width="220" height="445"/>
+                                <rect key="frame" x="155" y="0.0" width="220" height="425"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="y8G-7S-ju4" customClass="SecondModifiedView" customModule="CRACC" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="220" height="65"/>
@@ -3015,7 +2992,7 @@
                                         </constraints>
                                     </view>
                                     <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="IDp-Ga-AaQ">
-                                        <rect key="frame" x="0.0" y="65" width="220" height="380"/>
+                                        <rect key="frame" x="0.0" y="65" width="220" height="360"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <prototypes>
                                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="ChatViewCell" rowHeight="62" id="Dcb-ij-SeN" customClass="ChatViewCell" customModule="CRACC" customModuleProvider="target">
@@ -3033,19 +3010,19 @@
                                                             </constraints>
                                                         </imageView>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="100" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lzI-D8-6cc">
-                                                            <rect key="frame" x="125.5" y="16" width="18.5" height="30"/>
+                                                            <rect key="frame" x="191.5" y="16" width="20.5" height="30"/>
                                                             <fontDescription key="fontDescription" name="MyriadPro-Regular" family="Myriad Pro" pointSize="12"/>
                                                             <color key="textColor" red="0.92019122838973999" green="0.26046296954154968" blue="0.21952623128890991" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sept 17" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="PIe-uc-EZq">
-                                                            <rect key="frame" x="49" y="28" width="83" height="17"/>
+                                                            <rect key="frame" x="49" y="28" width="151" height="17"/>
                                                             <fontDescription key="fontDescription" name="MyriadPro-Regular" family="Myriad Pro" pointSize="11"/>
                                                             <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hoang's game" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kRe-ud-1et">
-                                                            <rect key="frame" x="49" y="11" width="83" height="17"/>
+                                                            <rect key="frame" x="49" y="11" width="151" height="17"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="17" id="Byo-oh-uS5"/>
                                                                 <constraint firstAttribute="width" constant="83" id="EDb-VV-vDr"/>
@@ -3163,7 +3140,7 @@
                                                 </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="forecast cloud" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0dL-vN-qpL">
-                                                <rect key="frame" x="282.5" y="58" width="91" height="16"/>
+                                                <rect key="frame" x="280" y="58" width="96" height="16"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="16" id="E5Y-Jg-DCP"/>
                                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="91" id="sUY-uj-H7D"/>
@@ -3333,25 +3310,25 @@
                                         <rect key="frame" x="51" y="121" width="273" height="125"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Time:" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fkp-ZO-Z5F">
-                                                <rect key="frame" x="0.0" y="8" width="106" height="16"/>
+                                                <rect key="frame" x="0.0" y="8" width="106" height="19"/>
                                                 <fontDescription key="fontDescription" name="MyriadPro-Regular" family="Myriad Pro" pointSize="16"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Date:" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UwU-zk-hsN">
-                                                <rect key="frame" x="0.0" y="37" width="106" height="16"/>
+                                                <rect key="frame" x="0.0" y="40" width="106" height="19"/>
                                                 <fontDescription key="fontDescription" name="MyriadPro-Regular" family="Myriad Pro" pointSize="16"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Location:" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xeW-zw-ZYg">
-                                                <rect key="frame" x="0.0" y="66" width="106" height="16"/>
+                                                <rect key="frame" x="0.0" y="72" width="106" height="19"/>
                                                 <fontDescription key="fontDescription" name="MyriadPro-Regular" family="Myriad Pro" pointSize="16"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="October 15th, 2017" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="APa-V8-UCq">
-                                                <rect key="frame" x="114" y="37" width="159" height="16"/>
+                                                <rect key="frame" x="114" y="40" width="159" height="19"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="159" id="3yn-sJ-thA"/>
                                                 </constraints>
@@ -3360,7 +3337,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="83 main st " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="Nh3-wM-iZ6">
-                                                <rect key="frame" x="114" y="66" width="159" height="16"/>
+                                                <rect key="frame" x="114" y="72" width="159" height="19"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="159" id="9Pj-Op-1Ay"/>
                                                 </constraints>
@@ -3369,7 +3346,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="8/11" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="c1C-Ym-Q5L">
-                                                <rect key="frame" x="114" y="95" width="159" height="16"/>
+                                                <rect key="frame" x="114" y="104" width="159" height="19"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="159" id="MQk-p3-WoP"/>
                                                 </constraints>
@@ -3378,7 +3355,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="15:30 Am" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rtJ-rf-Ik9">
-                                                <rect key="frame" x="114" y="8" width="159" height="16"/>
+                                                <rect key="frame" x="114" y="8" width="159" height="19"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="159" id="4PT-sG-65v"/>
                                                 </constraints>
@@ -3387,7 +3364,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="People:" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ael-RE-dtF">
-                                                <rect key="frame" x="0.0" y="95" width="106" height="16"/>
+                                                <rect key="frame" x="0.0" y="104" width="106" height="19"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="106" id="itt-MY-Fov"/>
                                                 </constraints>
@@ -3469,7 +3446,7 @@
                                 </constraints>
                             </view>
                             <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aAc-pg-4AM" customClass="ModifiedInformationView" customModule="CRACC" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="86" width="375" height="540"/>
+                                <rect key="frame" x="0.0" y="86" width="375" height="520"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RfV-0j-oaK">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="103"/>
@@ -3532,7 +3509,7 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Oso-o0-uKa">
-                                        <rect key="frame" x="0.0" y="103" width="375" height="437"/>
+                                        <rect key="frame" x="0.0" y="103" width="375" height="417"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="CWZ-lr-U34">
                                                 <rect key="frame" x="30" y="8" width="315" height="150"/>
@@ -3713,7 +3690,7 @@
                                                 </constraints>
                                             </view>
                                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="AEK-Xa-qPD">
-                                                <rect key="frame" x="0.0" y="184.5" width="375" height="252.5"/>
+                                                <rect key="frame" x="0.0" y="184.5" width="375" height="232.5"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <prototypes>
                                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="commentCell" rowHeight="80" id="4m6-bF-WKS" customClass="commentCell" customModule="CRACC" customModuleProvider="target">
@@ -3788,7 +3765,7 @@
                                 </constraints>
                             </view>
                             <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ctz-iS-bY0" customClass="Modified2cornerView" customModule="CRACC" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="288" width="375" height="379"/>
+                                <rect key="frame" x="0.0" y="268" width="375" height="379"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yP7-di-gGe">
                                         <rect key="frame" x="0.0" y="115" width="375" height="264"/>
@@ -3899,25 +3876,25 @@
                                                 <rect key="frame" x="51" y="16" width="273" height="125"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Time:" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YUs-QO-LmD">
-                                                        <rect key="frame" x="0.0" y="8" width="106" height="16"/>
+                                                        <rect key="frame" x="0.0" y="8" width="106" height="19"/>
                                                         <fontDescription key="fontDescription" name="MyriadPro-Regular" family="Myriad Pro" pointSize="16"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Date:" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3ct-CS-jIw">
-                                                        <rect key="frame" x="0.0" y="37" width="106" height="16"/>
+                                                        <rect key="frame" x="0.0" y="40" width="106" height="19"/>
                                                         <fontDescription key="fontDescription" name="MyriadPro-Regular" family="Myriad Pro" pointSize="16"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Location:" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zyl-Fw-WYN">
-                                                        <rect key="frame" x="0.0" y="66" width="106" height="16"/>
+                                                        <rect key="frame" x="0.0" y="72" width="106" height="19"/>
                                                         <fontDescription key="fontDescription" name="MyriadPro-Regular" family="Myriad Pro" pointSize="16"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="October 15th, 2017" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zXA-Yk-XfJ">
-                                                        <rect key="frame" x="114" y="37" width="159" height="16"/>
+                                                        <rect key="frame" x="114" y="40" width="159" height="19"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" constant="159" id="tVl-Lh-2Xc"/>
                                                         </constraints>
@@ -3926,7 +3903,7 @@
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="83 main st " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="4ml-m0-Xgl">
-                                                        <rect key="frame" x="114" y="66" width="159" height="16"/>
+                                                        <rect key="frame" x="114" y="72" width="159" height="19"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" constant="159" id="C8C-kc-Pd6"/>
                                                         </constraints>
@@ -3935,7 +3912,7 @@
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="08 out of 11 people" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="9HL-PK-D8E">
-                                                        <rect key="frame" x="114" y="95" width="159" height="16"/>
+                                                        <rect key="frame" x="114" y="104" width="159" height="19"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" constant="159" id="na9-iK-CBo"/>
                                                         </constraints>
@@ -3944,7 +3921,7 @@
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="15:30 Am" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ESW-Qb-Ne6">
-                                                        <rect key="frame" x="114" y="8" width="159" height="16"/>
+                                                        <rect key="frame" x="114" y="8" width="159" height="19"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" constant="159" id="chE-UY-SiH"/>
                                                         </constraints>
@@ -3953,7 +3930,7 @@
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="People:" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bc3-IO-TDU">
-                                                        <rect key="frame" x="0.0" y="95" width="106" height="16"/>
+                                                        <rect key="frame" x="0.0" y="104" width="106" height="19"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" constant="106" id="tgH-qX-jVe"/>
                                                         </constraints>
@@ -4262,13 +4239,13 @@
                                 </constraints>
                             </view>
                             <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="08H-uR-bft" customClass="ModifiedGameListView" customModule="CRACC" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="200" width="375" height="467"/>
+                                <rect key="frame" x="0.0" y="180" width="375" height="467"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="M3D-Yj-VWc">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="60"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Game List" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pkd-uO-oCc">
-                                                <rect key="frame" x="50" y="21.5" width="275" height="17"/>
+                                                <rect key="frame" x="50" y="20" width="275" height="20"/>
                                                 <fontDescription key="fontDescription" name="MyriadPro-Regular" family="Myriad Pro" pointSize="17"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
@@ -4292,7 +4269,7 @@
                                                 <rect key="frame" x="0.0" y="28" width="375" height="62"/>
                                                 <autoresizingMask key="autoresizingMask"/>
                                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="dL3-zi-jlm" id="lGQ-lz-Mwa">
-                                                    <rect key="frame" x="0.0" y="0.0" width="375" height="61.5"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="375" height="62"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <subviews>
                                                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="football" translatesAutoresizingMaskIntoConstraints="NO" id="OZG-OB-SS7">
@@ -4313,7 +4290,7 @@
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Roo's game" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vOw-xV-Klo">
-                                                            <rect key="frame" x="60" y="34" width="120" height="10"/>
+                                                            <rect key="frame" x="60" y="34" width="120" height="12"/>
                                                             <fontDescription key="fontDescription" name="MyriadPro-Regular" family="Myriad Pro" pointSize="10"/>
                                                             <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                             <nil key="highlightedColor"/>
@@ -4365,23 +4342,23 @@
                                 </constraints>
                             </view>
                             <view hidden="YES" alpha="0.59999999999999998" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VYR-RH-SIS">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
                             <view hidden="YES" opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dot-8v-i9g">
-                                <rect key="frame" x="40" y="78" width="295" height="556"/>
+                                <rect key="frame" x="40" y="78" width="295" height="536"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Term of use" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ocG-yi-VqO">
-                                        <rect key="frame" x="8" y="16" width="279" height="17"/>
+                                        <rect key="frame" x="8" y="16" width="279" height="20"/>
                                         <fontDescription key="fontDescription" name="MyriadPro-Bold" family="Myriad Pro" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FIE-F2-P7X">
-                                        <rect key="frame" x="0.0" y="49" width="295" height="449"/>
+                                        <rect key="frame" x="0.0" y="52" width="295" height="426"/>
                                         <subviews>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsVerticalScrollIndicator="NO" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hrC-hv-eSA">
-                                                <rect key="frame" x="0.0" y="0.0" width="295" height="449"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="295" height="426"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <string key="text">
 Welcome to CRACC
@@ -4463,7 +4440,7 @@ CRACC is located in the United States at 83 main st, Durham, New Hampshire, 0382
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4fG-75-2bW">
-                                        <rect key="frame" x="0.0" y="506" width="295" height="50"/>
+                                        <rect key="frame" x="0.0" y="486" width="295" height="50"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="d68-lI-uFn">
                                                 <rect key="frame" x="72.5" y="10" width="150" height="30"/>
@@ -4537,7 +4514,7 @@ CRACC is located in the United States at 83 main st, Durham, New Hampshire, 0382
                                 </constraints>
                             </view>
                             <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4Bs-2i-GeU" customClass="ModifiedInformationView" customModule="CRACC" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="133.5" width="375" height="400"/>
+                                <rect key="frame" x="0.0" y="123.5" width="375" height="400"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Setting" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e7B-Br-HDf">
                                         <rect key="frame" x="131" y="16" width="113" height="21"/>
@@ -4557,14 +4534,12 @@ CRACC is located in the United States at 83 main st, Durham, New Hampshire, 0382
                                         </constraints>
                                     </imageView>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Roo's game" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="jFF-gX-ORO">
-                                        <rect key="frame" x="16" y="116" width="343" height="30"/>
-                                        <nil key="textColor"/>
+                                        <rect key="frame" x="16" y="116" width="343" height="34"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Student rec field" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="cOC-Fi-Rea">
-                                        <rect key="frame" x="16" y="162" width="343" height="30"/>
-                                        <nil key="textColor"/>
+                                        <rect key="frame" x="16" y="166" width="343" height="34"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                         <connections>
@@ -4572,8 +4547,7 @@ CRACC is located in the United States at 83 main st, Durham, New Hampshire, 0382
                                         </connections>
                                     </textField>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="10h30 20/10/2018" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="6sx-oO-G1w">
-                                        <rect key="frame" x="16" y="208" width="343" height="30"/>
-                                        <nil key="textColor"/>
+                                        <rect key="frame" x="16" y="216" width="343" height="34"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                         <connections>
@@ -4581,8 +4555,7 @@ CRACC is located in the United States at 83 main st, Durham, New Hampshire, 0382
                                         </connections>
                                     </textField>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="10" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="0vz-t7-dUM">
-                                        <rect key="frame" x="16" y="254" width="343" height="30"/>
-                                        <nil key="textColor"/>
+                                        <rect key="frame" x="16" y="266" width="343" height="34"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                         <connections>
@@ -4590,7 +4563,7 @@ CRACC is located in the United States at 83 main st, Durham, New Hampshire, 0382
                                         </connections>
                                     </textField>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7kC-u6-QKN" customClass="modifiedCancelAndSaveBtn" customModule="CRACC" customModuleProvider="target">
-                                        <rect key="frame" x="52.5" y="304" width="125" height="50"/>
+                                        <rect key="frame" x="52.5" y="320" width="125" height="50"/>
                                         <color key="backgroundColor" red="0.85882352941176465" green="0.45490196078431372" blue="0.45490196078431372" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="50" id="gnK-AY-J20"/>
@@ -4605,7 +4578,7 @@ CRACC is located in the United States at 83 main st, Durham, New Hampshire, 0382
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h1g-Fd-cg5" customClass="modifiedCancelAndSaveBtn" customModule="CRACC" customModuleProvider="target">
-                                        <rect key="frame" x="197.5" y="304" width="125" height="50"/>
+                                        <rect key="frame" x="197.5" y="320" width="125" height="50"/>
                                         <color key="backgroundColor" red="0.47450980392156861" green="0.80000000000000004" blue="0.75294117647058822" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="50" id="6vh-xE-Amz"/>
@@ -4620,7 +4593,7 @@ CRACC is located in the United States at 83 main st, Durham, New Hampshire, 0382
                                         </connections>
                                     </button>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kMN-ZA-B1R">
-                                        <rect key="frame" x="177.5" y="309" width="20" height="40"/>
+                                        <rect key="frame" x="177.5" y="325" width="20" height="40"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="20" id="J15-nw-ysD"/>
@@ -4628,7 +4601,7 @@ CRACC is located in the United States at 83 main st, Durham, New Hampshire, 0382
                                         </constraints>
                                     </view>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="H5p-Cl-Xro">
-                                        <rect key="frame" x="304" y="195" width="69" height="58"/>
+                                        <rect key="frame" x="304" y="207" width="69" height="58"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="58" id="pDz-KP-20F"/>
                                             <constraint firstAttribute="width" constant="69" id="x3o-aB-Q2s"/>
@@ -4734,7 +4707,7 @@ CRACC is located in the United States at 83 main st, Durham, New Hampshire, 0382
                                 </constraints>
                             </view>
                             <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="slE-R7-UE6" customClass="ChooseFriendView" customModule="CRACC" customModuleProvider="target">
-                                <rect key="frame" x="206" y="515" width="130" height="106"/>
+                                <rect key="frame" x="206" y="495" width="130" height="106"/>
                                 <subviews>
                                     <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="hmT-AP-Lt7">
                                         <rect key="frame" x="0.0" y="0.0" width="130" height="106"/>
@@ -4849,11 +4822,11 @@ CRACC is located in the United States at 83 main st, Durham, New Hampshire, 0382
                                 </constraints>
                             </view>
                             <view hidden="YES" alpha="0.30000001192092896" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mOz-27-i5q">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
                                 <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
                             <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="O8H-Qe-kvQ" customClass="ModifyCornerForAddChatView" customModule="CRACC" customModuleProvider="target">
-                                <rect key="frame" x="135" y="35" width="185" height="461"/>
+                                <rect key="frame" x="135" y="35" width="185" height="441"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Friends" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fGP-6N-8p9">
                                         <rect key="frame" x="63" y="8" width="59" height="21"/>
@@ -4873,7 +4846,7 @@ CRACC is located in the United States at 83 main st, Durham, New Hampshire, 0382
                                         </constraints>
                                     </view>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="umQ-Cq-113">
-                                        <rect key="frame" x="63.5" y="431" width="58" height="22"/>
+                                        <rect key="frame" x="63.5" y="411" width="58" height="22"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="58" id="mui-Vd-XyO"/>
                                             <constraint firstAttribute="height" constant="22" id="paZ-BD-C5r"/>
@@ -4887,7 +4860,7 @@ CRACC is located in the United States at 83 main st, Durham, New Hampshire, 0382
                                         </connections>
                                     </button>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="a0d-l0-mev">
-                                        <rect key="frame" x="16" y="427" width="153" height="1"/>
+                                        <rect key="frame" x="16" y="407" width="153" height="1"/>
                                         <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="1" id="Zp5-Jf-dy2"/>
@@ -4903,7 +4876,7 @@ CRACC is located in the United States at 83 main st, Durham, New Hampshire, 0382
                                         <textInputTraits key="textInputTraits"/>
                                     </searchBar>
                                     <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="5QP-4c-RiQ">
-                                        <rect key="frame" x="0.0" y="56" width="185" height="370"/>
+                                        <rect key="frame" x="0.0" y="56" width="185" height="350"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <prototypes>
                                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="AddChatCell" rowHeight="44" id="cgl-en-vpf" customClass="AddChatCell" customModule="CRACC" customModuleProvider="target">
@@ -4987,7 +4960,7 @@ CRACC is located in the United States at 83 main st, Durham, New Hampshire, 0382
                                 </constraints>
                             </view>
                             <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CaR-oi-qqW" customClass="ModifiedInformationView" customModule="CRACC" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="50" width="375" height="567"/>
+                                <rect key="frame" x="0.0" y="50" width="375" height="547"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EMm-wd-2LE">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="100"/>
@@ -5038,25 +5011,25 @@ CRACC is located in the United States at 83 main st, Durham, New Hampshire, 0382
                                                         <rect key="frame" x="0.0" y="0.0" width="272.5" height="90"/>
                                                         <subviews>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Time:" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Vv-QF-9Xl">
-                                                                <rect key="frame" x="0.0" y="8" width="105.5" height="16"/>
+                                                                <rect key="frame" x="0.0" y="8" width="105.5" height="19"/>
                                                                 <fontDescription key="fontDescription" name="MyriadPro-Regular" family="Myriad Pro" pointSize="16"/>
                                                                 <nil key="textColor"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Date:" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eGH-GK-t8T">
-                                                                <rect key="frame" x="0.0" y="37" width="105.5" height="16"/>
+                                                                <rect key="frame" x="0.0" y="40" width="105.5" height="19"/>
                                                                 <fontDescription key="fontDescription" name="MyriadPro-Regular" family="Myriad Pro" pointSize="16"/>
                                                                 <nil key="textColor"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Location:" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4ca-mr-xS7">
-                                                                <rect key="frame" x="0.0" y="66" width="105.5" height="16"/>
+                                                                <rect key="frame" x="0.0" y="72" width="105.5" height="19"/>
                                                                 <fontDescription key="fontDescription" name="MyriadPro-Regular" family="Myriad Pro" pointSize="16"/>
                                                                 <nil key="textColor"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="October 15th, 2017" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LLW-G7-2oR">
-                                                                <rect key="frame" x="113.5" y="37" width="159" height="16"/>
+                                                                <rect key="frame" x="113.5" y="40" width="159" height="19"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="width" constant="159" id="xYK-OQ-A29"/>
                                                                 </constraints>
@@ -5065,7 +5038,7 @@ CRACC is located in the United States at 83 main st, Durham, New Hampshire, 0382
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="83 main st " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="moU-Ic-p5o">
-                                                                <rect key="frame" x="113.5" y="66" width="159" height="16"/>
+                                                                <rect key="frame" x="113.5" y="72" width="159" height="19"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="width" constant="159" id="j8O-5J-LJV"/>
                                                                 </constraints>
@@ -5074,7 +5047,7 @@ CRACC is located in the United States at 83 main st, Durham, New Hampshire, 0382
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="15:30 Am" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VPo-Qg-bfx">
-                                                                <rect key="frame" x="113.5" y="8" width="159" height="16"/>
+                                                                <rect key="frame" x="113.5" y="8" width="159" height="19"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="width" constant="159" id="ZM6-Z7-WQo"/>
                                                                 </constraints>
@@ -5271,7 +5244,7 @@ CRACC is located in the United States at 83 main st, Durham, New Hampshire, 0382
                                 </constraints>
                             </view>
                             <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nyM-KK-Zdr">
-                                <rect key="frame" x="52.5" y="158.5" width="270" height="350"/>
+                                <rect key="frame" x="52.5" y="148.5" width="270" height="350"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Why do you want to report this user ?" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aWT-Ix-pho">
                                         <rect key="frame" x="32" y="10" width="170" height="57"/>
@@ -5364,15 +5337,15 @@ CRACC is located in the United States at 83 main st, Durham, New Hampshire, 0382
                                 </constraints>
                             </view>
                             <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gwO-xa-I3P">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="711"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="691"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GHV-ez-C9m">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="711"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="691"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <viewLayoutGuide key="safeArea" id="6np-eU-T48"/>
                                     </view>
                                     <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="Bx4-Te-gcn">
-                                        <rect key="frame" x="177.5" y="345.5" width="20" height="20"/>
+                                        <rect key="frame" x="177.5" y="335.5" width="20" height="20"/>
                                     </activityIndicatorView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MGd-b4-rW4">
                                         <rect key="frame" x="16" y="32" width="20" height="20"/>
@@ -5671,15 +5644,15 @@ CRACC is located in the United States at 83 main st, Durham, New Hampshire, 0382
             <objects>
                 <viewController id="6Jm-ch-bE8" customClass="cameraVC" customModule="CRACC" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Abt-9r-wH0">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="091-Ix-F05">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="711"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="691"/>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Jmc-Sz-6co">
-                                <rect key="frame" x="127.5" y="512" width="120" height="120"/>
+                                <rect key="frame" x="127.5" y="492" width="120" height="120"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Jx-ZA-SwV">
                                         <rect key="frame" x="25" y="25" width="70" height="70"/>
@@ -5702,7 +5675,7 @@ CRACC is located in the United States at 83 main st, Durham, New Hampshire, 0382
                                 </constraints>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i2a-kC-PO9">
-                                <rect key="frame" x="307" y="28" width="60" height="60"/>
+                                <rect key="frame" x="307" y="8" width="60" height="60"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="60" id="RTE-mL-AmC"/>
                                     <constraint firstAttribute="height" constant="60" id="siG-Z5-tQX"/>
@@ -5713,15 +5686,15 @@ CRACC is located in the United States at 83 main st, Durham, New Hampshire, 0382
                                 </connections>
                             </button>
                             <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4gq-JR-fjv">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="711"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="691"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4la-wg-Bcw">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="711"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="691"/>
                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <viewLayoutGuide key="safeArea" id="Ia6-p6-M81"/>
                                     </view>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ANo-Hu-jPc">
-                                        <rect key="frame" x="319" y="611" width="40" height="40"/>
+                                        <rect key="frame" x="319" y="591" width="40" height="40"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="40" id="PM5-dx-8sJ"/>
                                             <constraint firstAttribute="height" constant="40" id="zp2-pm-nvs"/>
@@ -5791,7 +5764,7 @@ CRACC is located in the United States at 83 main st, Durham, New Hampshire, 0382
             <objects>
                 <viewController id="WyT-lm-qft" customClass="SettingVC" customModule="CRACC" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="mvU-xm-fMa">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="e3Q-Lv-gWK">
@@ -5854,7 +5827,6 @@ CRACC is located in the United States at 83 main st, Durham, New Hampshire, 0382
                                     <constraint firstAttribute="width" constant="123.5" id="Jg2-XK-3My"/>
                                     <constraint firstAttribute="height" constant="30" id="SAt-A3-Jip"/>
                                 </constraints>
-                                <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
@@ -5864,7 +5836,6 @@ CRACC is located in the United States at 83 main st, Durham, New Hampshire, 0382
                                     <constraint firstAttribute="width" constant="123.5" id="HvY-je-3aD"/>
                                     <constraint firstAttribute="height" constant="30" id="bj1-mG-G8a"/>
                                 </constraints>
-                                <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
@@ -5899,25 +5870,22 @@ CRACC is located in the United States at 83 main st, Durham, New Hampshire, 0382
                                 </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="email..." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="WEm-Qm-8yj">
-                                <rect key="frame" x="30" y="249" width="315" height="30"/>
-                                <nil key="textColor"/>
+                                <rect key="frame" x="30" y="249" width="315" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="New password..." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="2Z4-hJ-d1j">
-                                <rect key="frame" x="30" y="287" width="315" height="30"/>
-                                <nil key="textColor"/>
+                                <rect key="frame" x="30" y="291" width="315" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Confirm new password..." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="E7r-Jy-cVw">
-                                <rect key="frame" x="30" y="325" width="315" height="30"/>
-                                <nil key="textColor"/>
+                                <rect key="frame" x="30" y="333" width="315" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NO3-nP-rmV" customClass="loginBtn" customModule="CRACC" customModuleProvider="target">
-                                <rect key="frame" x="112" y="371" width="151" height="51"/>
+                                <rect key="frame" x="112" y="383" width="151" height="51"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="151" id="TRF-QX-3mP"/>
                                     <constraint firstAttribute="height" constant="51" id="bcz-jd-QkA"/>
@@ -5990,14 +5958,14 @@ CRACC is located in the United States at 83 main st, Durham, New Hampshire, 0382
             <objects>
                 <viewController id="vaY-xW-6cE" customClass="BlackListVC" customModule="CRACC" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="r1t-W4-BnD">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iQg-Rb-9an">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="62"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Black list" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="85O-WM-bQ9">
-                                        <rect key="frame" x="26" y="34" width="68.5" height="20"/>
+                                        <rect key="frame" x="26" y="34" width="77" height="20"/>
                                         <fontDescription key="fontDescription" name="MyriadPro-Regular" family="Myriad Pro" pointSize="19"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
@@ -6092,7 +6060,7 @@ CRACC is located in the United States at 83 main st, Durham, New Hampshire, 0382
                                 </constraints>
                             </view>
                             <tableView hidden="YES" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="8s8-VP-7Il">
-                                <rect key="frame" x="0.0" y="105" width="375" height="562"/>
+                                <rect key="frame" x="0.0" y="105" width="375" height="542"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="BlockCell" rowHeight="89" id="bHE-HH-Y6c" customClass="BlockCell" customModule="CRACC" customModuleProvider="target">
@@ -6103,7 +6071,7 @@ CRACC is located in the United States at 83 main st, Durham, New Hampshire, 0382
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Vy is creating a soccer game" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NID-OJ-Zdx">
-                                                    <rect key="frame" x="86" y="51" width="117" height="13"/>
+                                                    <rect key="frame" x="86" y="51" width="129" height="13"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="13" id="ayQ-rw-Ms3"/>
                                                     </constraints>
@@ -6119,7 +6087,7 @@ CRACC is located in the United States at 83 main st, Durham, New Hampshire, 0382
                                                     </constraints>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tran Thao Vy" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uGh-iC-zuz">
-                                                    <rect key="frame" x="81" y="27" width="127" height="24"/>
+                                                    <rect key="frame" x="81" y="27" width="139" height="24"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="24" id="Ezq-Sv-ErU"/>
                                                     </constraints>
@@ -6171,7 +6139,7 @@ CRACC is located in the United States at 83 main st, Durham, New Hampshire, 0382
                                 </prototypes>
                             </tableView>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="3hk-7n-ku8">
-                                <rect key="frame" x="0.0" y="105" width="375" height="562"/>
+                                <rect key="frame" x="0.0" y="105" width="375" height="542"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="RequestGameCell" rowHeight="91" id="95S-61-3Gs" customClass="RequestGameCell" customModule="CRACC" customModuleProvider="target">
@@ -6308,7 +6276,7 @@ CRACC is located in the United States at 83 main st, Durham, New Hampshire, 0382
             <objects>
                 <viewController id="0bh-uC-ck0" customClass="termOfUseVC" customModule="CRACC" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="OGI-ju-Obl">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QCI-Qm-n9w">
@@ -6358,7 +6326,7 @@ CRACC is located in the United States at 83 main st, Durham, New Hampshire, 0382
                                 </constraints>
                             </view>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsVerticalScrollIndicator="NO" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3vi-13-aXA">
-                                <rect key="frame" x="0.0" y="65" width="375" height="602"/>
+                                <rect key="frame" x="0.0" y="65" width="375" height="582"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <string key="text">
 Welcome to CRACC
@@ -6456,11 +6424,11 @@ CRACC is located in the United States at 83 main st, Durham, New Hampshire, 0382
             <objects>
                 <viewController definesPresentationContext="YES" id="1W1-dd-1e9" customClass="interestedVC" customModule="CRACC" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="lI3-r1-KHa">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="FLg-Ct-ceZ">
-                                <rect key="frame" x="0.0" y="102" width="375" height="609"/>
+                                <rect key="frame" x="0.0" y="102" width="375" height="589"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="FriendListCell" rowHeight="90" id="diy-Oe-3NN" customClass="FriendListCell" customModule="CRACC" customModuleProvider="target">
@@ -6516,7 +6484,7 @@ CRACC is located in the United States at 83 main st, Durham, New Hampshire, 0382
                                 </prototypes>
                             </tableView>
                             <tableView hidden="YES" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="ZTt-0y-lsT">
-                                <rect key="frame" x="0.0" y="102" width="375" height="609"/>
+                                <rect key="frame" x="0.0" y="102" width="375" height="589"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="FriendRequestCell" rowHeight="80" id="wbH-6F-YuH" customClass="FriendRequestCell" customModule="CRACC" customModuleProvider="target">
@@ -6617,14 +6585,14 @@ CRACC is located in the United States at 83 main st, Durham, New Hampshire, 0382
                                 </prototypes>
                             </tableView>
                             <tableView hidden="YES" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="bVr-Pm-9HN">
-                                <rect key="frame" x="0.0" y="102" width="375" height="609"/>
+                                <rect key="frame" x="0.0" y="102" width="375" height="589"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="FriendAddCell" rowHeight="80" id="rat-q9-lx4" customClass="FriendAddCell" customModule="CRACC" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="375" height="80"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="rat-q9-lx4" id="jqz-4A-4jr">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="79.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="80"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Vy" translatesAutoresizingMaskIntoConstraints="NO" id="oWr-Vj-JPq" customClass="addBorderAndRoundedCornerImgView" customModule="CRACC" customModuleProvider="target">
@@ -6772,7 +6740,7 @@ CRACC is located in the United States at 83 main st, Durham, New Hampshire, 0382
                                 </constraints>
                             </view>
                             <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1f7-Mx-WjR">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="lightTextColor"/>
                             </view>
                             <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8ua-Yf-Uvx" customClass="modifiedFriendModeRequest" customModule="CRACC" customModuleProvider="target">
@@ -6897,7 +6865,7 @@ CRACC is located in the United States at 83 main st, Durham, New Hampshire, 0382
             <objects>
                 <viewController id="2HU-Xu-212" customClass="chatVC" customModule="CRACC" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="fJA-f2-hOf">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="LsY-YV-e6N"/>
@@ -6917,14 +6885,14 @@ CRACC is located in the United States at 83 main st, Durham, New Hampshire, 0382
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eWT-F6-hgl" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1729" y="1767"/>
+            <point key="canvasLocation" x="1729" y="1752"/>
         </scene>
         <!--ReportVC-->
         <scene sceneID="Zjh-kc-m2e">
             <objects>
                 <viewController id="8jV-Ap-fgW" customClass="ReportVC" customModule="CRACC" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="MUn-OM-pSR">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JGi-mU-G7i">
@@ -7169,6 +7137,7 @@ CRACC is located in the United States at 83 main st, Durham, New Hampshire, 0382
                             <constraint firstItem="iB7-eN-f91" firstAttribute="top" secondItem="TgI-Xl-H0z" secondAttribute="top" constant="16" id="ybk-f0-aMu"/>
                             <constraint firstItem="16B-bn-bQZ" firstAttribute="leading" secondItem="TgI-Xl-H0z" secondAttribute="leading" id="yue-N4-XSu"/>
                         </constraints>
+                        <viewLayoutGuide key="safeArea" id="oeY-AA-h9E"/>
                     </view>
                     <connections>
                         <outlet property="backBtn" destination="iB7-eN-f91" id="UJt-4S-ryw"/>
@@ -7188,7 +7157,7 @@ CRACC is located in the United States at 83 main st, Durham, New Hampshire, 0382
             <objects>
                 <viewController id="UaT-uR-Mup" customClass="SelectedImgVC" customModule="CRACC" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="tiC-KZ-WiK">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lyf-TZ-Gwe">
@@ -7218,16 +7187,16 @@ CRACC is located in the United States at 83 main st, Durham, New Hampshire, 0382
                                         </connections>
                                     </button>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="m4v-UZ-6rV">
-                                        <rect key="frame" x="32" y="41" width="94.5" height="25"/>
+                                        <rect key="frame" x="32" y="36.5" width="100.5" height="29.5"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hoang Nguyen" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xeJ-P9-ZWY">
-                                                <rect key="frame" x="0.0" y="0.0" width="94.5" height="15"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="100.5" height="17.5"/>
                                                 <fontDescription key="fontDescription" name="MyriadPro-Regular" family="Myriad Pro" pointSize="15"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="21m ago" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yGI-JI-WYV">
-                                                <rect key="frame" x="0.0" y="15" width="94.5" height="10"/>
+                                                <rect key="frame" x="0.0" y="17.5" width="100.5" height="12"/>
                                                 <fontDescription key="fontDescription" name="MyriadPro-Regular" family="Myriad Pro" pointSize="10"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
@@ -7247,7 +7216,7 @@ CRACC is located in the United States at 83 main st, Durham, New Hampshire, 0382
                                 </constraints>
                             </view>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="qfD-Mv-ogB">
-                                <rect key="frame" x="0.0" y="74" width="375" height="593"/>
+                                <rect key="frame" x="0.0" y="74" width="375" height="573"/>
                                 <viewLayoutGuide key="safeArea" id="MYr-kY-X5I"/>
                             </imageView>
                         </subviews>
@@ -7380,6 +7349,7 @@ CRACC is located in the United States at 83 main st, Durham, New Hampshire, 0382
                             <constraint firstItem="Vr4-qf-uBm" firstAttribute="bottom" secondItem="iEn-1f-QHs" secondAttribute="bottom" id="p6u-XK-huf"/>
                             <constraint firstItem="Vr4-qf-uBm" firstAttribute="leading" secondItem="iEn-1f-QHs" secondAttribute="leading" id="syC-7J-jpg"/>
                         </constraints>
+                        <viewLayoutGuide key="safeArea" id="On7-GN-C8B"/>
                     </view>
                     <connections>
                         <outlet property="collectionView" destination="Vr4-qf-uBm" id="lmu-c7-47H"/>
@@ -7396,11 +7366,11 @@ CRACC is located in the United States at 83 main st, Durham, New Hampshire, 0382
             <objects>
                 <viewController id="UPk-Of-jvT" customClass="CameraContainerVC" customModule="CRACC" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="74Z-RB-qLB">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" bouncesZoom="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EWl-w5-BUt">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
                             </scrollView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -7410,6 +7380,7 @@ CRACC is located in the United States at 83 main st, Durham, New Hampshire, 0382
                             <constraint firstItem="EWl-w5-BUt" firstAttribute="leading" secondItem="74Z-RB-qLB" secondAttribute="leading" id="nHI-XL-IM1"/>
                             <constraint firstItem="EWl-w5-BUt" firstAttribute="top" secondItem="74Z-RB-qLB" secondAttribute="top" id="vJC-xm-1oG"/>
                         </constraints>
+                        <viewLayoutGuide key="safeArea" id="Wc8-Uh-D0k"/>
                     </view>
                     <connections>
                         <outlet property="scrollView" destination="EWl-w5-BUt" id="MZR-2H-MMo"/>
@@ -7425,7 +7396,7 @@ CRACC is located in the United States at 83 main st, Durham, New Hampshire, 0382
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="pVI-oh-348" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="u1Y-rH-lYs">
-                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="56"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="barTintColor" red="0.38823529411764707" green="0.51764705882352946" blue="0.50980392156862742" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <textAttributes key="titleTextAttributes">
@@ -7442,6 +7413,11 @@ CRACC is located in the United States at 83 main st, Durham, New Hampshire, 0382
             <point key="canvasLocation" x="1728.75" y="955.9859154929577"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="3ez-28-cJO"/>
+        <segue reference="Yfh-JL-Sg8"/>
+        <segue reference="pel-VP-2iM"/>
+    </inferredMetricsTieBreakers>
     <resources>
         <image name="CRACC" width="40" height="40"/>
         <image name="CRACC2" width="40" height="40"/>
@@ -7483,9 +7459,4 @@ CRACC is located in the United States at 83 main st, Durham, New Hampshire, 0382
         <image name="vidicon" width="40" height="40"/>
         <image name="whiteback" width="40" height="40"/>
     </resources>
-    <inferredMetricsTieBreakers>
-        <segue reference="3ez-28-cJO"/>
-        <segue reference="Yfh-JL-Sg8"/>
-        <segue reference="pel-VP-2iM"/>
-    </inferredMetricsTieBreakers>
 </document>
